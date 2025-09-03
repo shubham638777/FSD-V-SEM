@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f4f6;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(4, 1fr);    
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    padding: 3rem;
+    border: 5px solid #9ca3af;
+    box-sizing: border-box;
+    display: flex;               
+    align-items: center;
+    justify-content: center;
+}
+
+.box span {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #374151;
+}
